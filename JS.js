@@ -45,8 +45,9 @@
 
 
  // бургер меню
-
+$(document).ready(function(){
  $('.burger-on').click(function () {
      $(".menu").fadeToggle(100);
      $('.menu').show(); // Показывает содержимое диалога.
  });
+})
